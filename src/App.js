@@ -3,11 +3,14 @@ import './App.css';
 import Nav from './compunets/Nav';
 import Footer from './compunets/Footer';
 import Store from './compunets/Store';
+import Login from './compunets/Login';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Login/>
+      {/* <header className="App-header">
    <Nav />
    <div id='cards'>
    <Store  name="JavaScript" des="The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!"
@@ -33,7 +36,7 @@ function App() {
    </div>
         {}
       </header>
-      <Footer/>
+      <Footer/> */}
     </div>
    
   );
